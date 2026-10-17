@@ -22,7 +22,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kubernetes.svg" width="20" height="20" alt=""/> &nbsp;k7s
+### ☸️ &nbsp;k7s
 **Lens 风格 · Kubernetes 全平台监控**
 
 Tauri 2 + Rust + React。桌面 / Web / iPad / Android 四形态，实时资源、拓扑、可观测、安全审计、AI 助手 + 96 个 MCP 工具。
@@ -35,7 +35,7 @@ Tauri 2 + Rust + React。桌面 / Web / iPad / Android 四形态，实时资源�
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg" width="20" height="20" alt=""/> &nbsp;GitFerry「摆渡」
+### ⛴ &nbsp;GitFerry「摆渡」
 **跨网同步 · 开源发布 · 冷备容灾**
 
 一站式 Git 同步微服务：GitHub / GitLab / Gitee / Gitea 多平台任务同步、元数据可恢复冷备、模块身份重写、Agent 原生 CLI + MCP。
@@ -50,7 +50,7 @@ Tauri 2 + Rust + React。桌面 / Web / iPad / Android 四形态，实时资源�
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" width="20" height="20" alt=""/> &nbsp;go-git-platform
+### 🔌 &nbsp;go-git-platform
 **7 大 Git 平台 · 统一 Go SDK**
 
 GitHub / GitLab / Gitea / Forgejo / Gitee / GitCode / 工蜂统一接口 + 本地 git 后端 + CI 失败诊断 + MCP Server。
@@ -61,7 +61,7 @@ GitHub / GitLab / Gitea / Forgejo / Gitee / GitCode / 工蜂统一接口 + 本�
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/heartbeat.svg" width="20" height="20" alt=""/> &nbsp;bianque 扁鹊
+### 🩺 &nbsp;bianque 扁鹊
 **运维诊断 · 技能 / 专家 / 诊断链**
 
 领域包（pack）式运维诊断资产：OS / K8s / 中间件 / 数据库 / CI-CD / 可观测，一键导入，兼容 Agent Skills。
@@ -75,7 +75,7 @@ GitHub / GitLab / Gitea / Forgejo / Gitee / GitCode / 工蜂统一接口 + 本�
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/zentao.svg" width="20" height="20" alt=""/> &nbsp;禅道系 · ZenTao
+### 📋 &nbsp;禅道系 · ZenTao
 **轻量项目管理与发布中心**
 
 zentao-mini / zentao-max / zentao-release-center — 桌面友好、Go 实现的项目管理与发布工具链。
@@ -87,7 +87,7 @@ zentao-mini / zentao-max / zentao-release-center — 桌面友好、Go 实现的
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/apple.svg" width="20" height="20" alt=""/> &nbsp;SidecarOneStep「随航一步」
+### 🖥 &nbsp;SidecarOneStep「随航一步」
 **macOS Sidecar 一键增强**
 
 一键连接 iPad 随航、远程控制、自动化集成、MCP 接入。
@@ -136,18 +136,39 @@ zentao-mini / zentao-max / zentao-release-center — 桌面友好、Go 实现的
 
 ---
 
+## 👥 成员
+
+<div align="center">
+  <a href="https://github.com/zy84338719"><img src="https://github.com/zy84338719.png" width="80" height="80" alt="zy84338719" style="border-radius:50%"/></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/YifanChen117"><img src="https://github.com/YifanChen117.png" width="80" height="80" alt="YifanChen117" style="border-radius:50%"/></a>
+  <br/><br/>
+  <sub><a href="https://github.com/zy84338719">MurphyYi</a> · <a href="https://github.com/YifanChen117">YifanChen117</a></sub>
+</div>
+
+---
+
 ## 📊 数据一览
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=yi-nology&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="yi-nology stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yi-nology&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="top languages"/>
+
+![Public Repos](https://img.shields.io/badge/Public%20Repos-46%2B-3B82F6?style=for-the-badge&logo=github&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-DevOps-22D3EE?style=for-the-badge&logo=rocket&logoColor=black)
+![Languages](https://img.shields.io/badge/Languages-Go%20·%20Rust%20·%20TS%20·%20Vue-34D399?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT%20%2F%20Apache--2.0-A78BFA?style=for-the-badge&logo=open-source-initiative&logoColor=white)
+
 </div>
 
 <br/>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yi-nology&theme=tokyonight&hide_border=true" alt="streak" height="165"/>
-</div>
+<table align="center">
+<tr>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/k7s-K8s%20监控-326CE5?style=flat-square"/><br/><sub>多端可视化运维</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/GitFerry-同步%20摆渡-F05032?style=flat-square"/><br/><sub>跨网 Git 同步</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/go--git--platform-统一%20SDK-00ADD8?style=flat-square"/><br/><sub>7 平台 Git 接口</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/bianque-运维诊断-F59E0B?style=flat-square"/><br/><sub>Agent 诊断链</sub></td>
+</tr>
+</table>
 
 ---
 
