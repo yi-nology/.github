@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#101B2D"/>
+      <stop offset="100%" stop-color="#0A1628"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E3A5F" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#grid)"/>
+
+  <!-- decorative glows -->
+  <circle cx="180" cy="60" r="140" fill="url(#glow)" filter="url(#soft)"/>
+  <circle cx="1100" cy="280" r="160" fill="#22D3EE" opacity="0.12" filter="url(#soft)"/>
+  <circle cx="980" cy="40" r="90" fill="#34D399" opacity="0.10" filter="url(#soft)"/>
+
+  <!-- top accent line -->
+  <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+
+  <!-- left mark: hex node cluster -->
+  <g transform="translate(120,160)">
+    <polygon points="0,-36 31,-18 31,18 0,36 -31,18 -31,-18" fill="none" stroke="#22D3EE" stroke-width="2.5" opacity="0.9"/>
+    <polygon points="0,-18 16,-9 16,9 0,18 -16,9 -16,-9" fill="#22D3EE" opacity="0.18"/>
+    <circle cx="0" cy="0" r="5" fill="#22D3EE"/>
+    <!-- satellite nodes -->
+    <circle cx="62" cy="-34" r="7" fill="#3B82F6" opacity="0.85"/>
+    <circle cx="70" cy="28" r="7" fill="#34D399" opacity="0.85"/>
+    <circle cx="-58" cy="36" r="6" fill="#F59E0B" opacity="0.75"/>
+    <line x1="28" y1="-14" x2="58" y2="-32" stroke="#3B82F6" stroke-width="1.5" opacity="0.7"/>
+    <line x1="28" y1="12" x2="65" y2="26" stroke="#34D399" stroke-width="1.5" opacity="0.7"/>
+    <line x1="-28" y1="16" x2="-54" y2="34" stroke="#F59E0B" stroke-width="1.5" opacity="0.7"/>
+  </g>
+
+  <!-- title block -->
+  <text x="240" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="64" font-weight="700" fill="#F8FAFC" letter-spacing="2">yi-nology</text>
+  <rect x="242" y="156" width="320" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="240" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="26" font-weight="500" fill="#94A3B8">把复杂运维 · 变简单</text>
+  <text x="240" y="238" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="400" fill="#64748B">Developer Tools  ·  DevOps  ·  Kubernetes  ·  Git Infrastructure</text>
+
+  <!-- right chips -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600">
+    <rect x="860" y="118" width="88" height="30" rx="15" fill="#3B82F6" opacity="0.18" stroke="#3B82F6" stroke-opacity="0.5"/>
+    <text x="904" y="138" text-anchor="middle" fill="#93C5FD">k8s</text>
+    <rect x="960" y="118" width="88" height="30" rx="15" fill="#22D3EE" opacity="0.16" stroke="#22D3EE" stroke-opacity="0.5"/>
+    <text x="1004" y="138" text-anchor="middle" fill="#67E8F9">Git</text>
+    <rect x="1060" y="118" width="96" height="30" rx="15" fill="#34D399" opacity="0.16" stroke="#34D399" stroke-opacity="0.5"/>
+    <text x="1108" y="138" text-anchor="middle" fill="#6EE7B7">Agent</text>
+
+    <rect x="860" y="164" width="88" height="30" rx="15" fill="#A78BFA" opacity="0.16" stroke="#A78BFA" stroke-opacity="0.5"/>
+    <text x="904" y="184" text-anchor="middle" fill="#C4B5FD">Rust</text>
+    <rect x="960" y="164" width="88" height="30" rx="15" fill="#F59E0B" opacity="0.16" stroke="#F59E0B" stroke-opacity="0.5"/>
+    <text x="1004" y="184" text-anchor="middle" fill="#FCD34D">Go</text>
+    <rect x="1060" y="164" width="96" height="30" rx="15" fill="#F472B6" opacity="0.16" stroke="#F472B6" stroke-opacity="0.5"/>
+    <text x="1108" y="184" text-anchor="middle" fill="#F9A8D4">MCP</text>
+  </g>
+
+  <!-- bottom path -->
+  <path d="M80 290 C 280 250, 420 310, 620 270 S 980 240, 1200 280" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.55"/>
+  <circle cx="80" cy="290" r="4" fill="#3B82F6"/>
+  <circle cx="620" cy="270" r="4" fill="#22D3EE"/>
+  <circle cx="1200" cy="280" r="4" fill="#34D399"/>
+</svg>
